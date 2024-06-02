@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1 class="main__title" id="main-title">
+        Expense Tracker
+    </h1>
+
+    <section class="main__section" id="main-section">
+
+        <div class="main__totalPrice" id="main-totalPrice">
+
+            <i class="fa-solid fa-dollar-sign"></i>
+
+            <span class="main__amount" id="main-amount">
+                000
+            </span>
+
+        </div>
+
+        
+        
+        <div class="main__expense" id="main-expense">
+            
+            
+            <div class="main__price" id="main-price">
+                <input type="number" class="price__input" id="price-input" placeholder="Enter the amount">
+                
+                <button class="incre__btn" id="incre-btn">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+                
+                <button class="decre__btn" id="decre-btn">
+                    <i class="fa-solid fa-minus"></i>
+                </button>
+            </div>
+            
+            <div class="main__reason" id="main-reason">
+                <input type="text" class="reason__input" id="reason-input" placeholder="Enter the reason">
+            </div>
+            
+        </div>
+        
+        
+    </section>
+
+    <div class="information__div" id="information-div">
+
+        <i class="fa-regular fa-lightbulb"></i>
+
+        <p class="info__phara" id="info-phara">
+            To remove the expense box you need to DOUBLE CLICK on the respective box
+        </p>
+
+    </div>
+
+    <section class="expense__section" id="expense-section">
+        <div class="expense__container" id="expense-container">
+            
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/e8cbd453b9.js" crossorigin="anonymous"></script>
+</body>
+</html>
